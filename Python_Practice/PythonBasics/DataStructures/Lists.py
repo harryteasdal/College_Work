@@ -6,7 +6,7 @@ x.append('cheese')
 x.insert(2,'kiwi')
 #to remove somthing use ListName.pop(location)
 x.pop(2)
-#to chech the length of a list use len(ListName) it does not start at zero
+#to check the length of a list use len(ListName) it does not start at zero
 print(len(x)) # the answer is 5 not 4 as it does not count from 0
 #to convert an item to a list ise the list(item) function
 print(list('Bread'))
