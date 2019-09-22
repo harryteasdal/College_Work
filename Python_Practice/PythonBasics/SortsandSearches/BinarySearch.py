@@ -7,6 +7,5 @@ while flag == False:
         flag = True 
         print(int("Item is in position: "+str(i))
     elif original_dataset[i] != search: 
-        i = i +1 
-        flag = False 
-        
+        i = i+1 
+  
