@@ -1,5 +1,10 @@
-class board:
+class Board():
     def __init__(self):
-        self.width = 8
-        self.height = 8 
-        
+        self.BoardWidth = None 
+        self.BaordHeight = None 
+        self.Board = [] 
+    def Set_Dimensions(self,height,width):
+        self.BaordHeight =height
+        self.BoardWidth = width 
+        self.Board = [self.BoardWidth,self.BaordHeight]
+    
